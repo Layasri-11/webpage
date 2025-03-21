@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    color:blue#333;
+}
+
+header {
+    background-color:rosybrown;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 25px;
+    background: url('mental-health.jpg') no-repeat center center/cover;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px orange#ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color:rosybrown#4CAF50;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rosybrown#45a049;
+}
+
+footer {
+    background-color: green#333;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}

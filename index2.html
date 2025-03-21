@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Us to Know You More</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            padding: 200px;
+            background-color: antiquewhite;
+            border-radius: 80px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question label {
+            font-size: 18px;
+        }
+        .question input {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: rosybrown;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Help Us to Know You More</h2>
+    <form action="process.php" method="POST">
+        <!-- Question 1 -->
+        <div class="question">
+            <label for="anxious">1. Are you getting anxious frequently?</label><br>
+            <input type="radio" id="anxious_yes" name="anxious" value="Yes">
+            <label for="anxious_yes">Yes</label>
+            <input type="radio" id="anxious_no" name="anxious" value="No">
+            <label for="anxious_no">No</label>
+        </div>
+    
+        <!-- Question 2 -->
+        <div class="question">
+            <label for="time_management">2. Can't manage your time?</label><br>
+            <input type="radio" id="time_management_yes" name="time_management" value="Yes">
+            <label for="time_management_yes">Yes</label>
+            <input type="radio" id="time_management_no" name="time_management" value="No">
+            <label for="time_management_no">No</label>
+        </div>
+    
+        <!-- Question 3 -->
+        <div class="question">
+            <label for="sleep">3. Are you getting enough sleep?</label><br>
+            <input type="radio" id="sleep_yes" name="sleep" value="Yes">
+            <label for="sleep_yes">Yes</label>
+            <input type="radio" id="sleep_no" name="sleep" value="No">
+            <label for="sleep_no">No</label>
+        </div>
+    
+        <!-- Next Button -->
+        <button type="submit" class="submit-btn">Next</button>
+    </form>
+    
+    
+    
+</div>
+
+</body>
+</html>
